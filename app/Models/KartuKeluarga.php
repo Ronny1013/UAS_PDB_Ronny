@@ -11,7 +11,7 @@ class KartuKeluarga extends Model
 
     protected $table = "kartu_keluarga";
 
-    public function jorongs(){
+    public function jorong(){
         return $this->belongsTo('App\Models\Jorong');
     }
     public function penduduks(){
